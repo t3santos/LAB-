@@ -1,9 +1,8 @@
 '''
-classe: m1_lab7.py
 descricao: Pesquisar se tem algum vereador está na lista de investigados na Lava Jato 
-autor: Clodonil Honorio Trigo
-email: clodonil@nisled.org
-data: 04 de julho de 2018
+autor: thiago santos
+email: thiago_auggusto.pawer@hotmail.com
+
 '''
 
 # importa a lib para obter as tabelas da Wikipedia
@@ -15,7 +14,7 @@ url="https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Brasil_por_popula
 # Inicia a class para obter a tabela
 site_connection = Scrapy_Table(url)
 
-# Pegando Tabelinha
+#  Tabela 
 
 tables = site_connection.get_tables(0)
 
